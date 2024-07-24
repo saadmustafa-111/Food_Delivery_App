@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
 import { MdAccountCircle } from "react-icons/md";
 import orderlogo from '../assets/LOGO 1.png';
 export default function Header() {
@@ -17,9 +18,9 @@ export default function Header() {
           <a href="#" className='text-gray-600 hover:text-gray-900 ml-4 relative'>
             <span className='inline-block py-2 px-5 rounded-full hover:bg-orange-500 hover:text-white  transition-all duration-300 transform group-hover:scale-105'>Special offers</span>
           </a>
-          <a href="#" className='text-gray-600 hover:text-gray-900 ml-4 relative'>
-            <span className='inline-block py-2 px-5 rounded-full hover:bg-orange-500 hover:text-white  transition-all duration-300 transform group-hover:scale-105'>Resolutions</span>
-          </a>
+          <Link to="/restaurant" className='text-gray-600 hover:text-gray-900 ml-4 relative'>
+            <span className='inline-block py-2 px-5 rounded-full hover:bg-orange-500 hover:text-white  transition-all duration-300 transform group-hover:scale-105'>Rastaurants</span>
+          </Link>
           <a href="#" className='text-gray-600 hover:text-gray-900 ml-4 relative'>
             <span className='inline-block py-2 px-5 rounded-full hover:bg-orange-500 hover:text-white  transition-all duration-300 transform group-hover:scale-105'>Track Orders</span>
           </a>
