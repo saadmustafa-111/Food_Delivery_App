@@ -4,7 +4,6 @@ import { BiColor } from "react-icons/bi";
 import { MdDownloading } from "react-icons/md";
 export default function Topbar() {
   return (<>    <div className='bg-slate-100 py-4 text-sm mx-10 rounded-lg flex'  >
-        {/* <div className='flex items-center'> */}
 <p className='ml-4 font-bold'>Get Your 5% off on first order
     <a href='#' className='text-orange-500 ml-1 hover:underline'>:PROMO Code</a>
 </p>
@@ -15,8 +14,6 @@ export default function Topbar() {
             <a href='#' className='text-orange-500 ml-1 hover:underline'>:Change Location</a>
           </div>
         </div>
-        {/* </div> */}
-        
         <div className='flex  items-center justify-center bg-green-600 rounded-md px-4 py-2 ml-auto'>
         <BiColor className='text-white text-2xl ' />
         <p className='ml-3 text-white'>23 items</p>
