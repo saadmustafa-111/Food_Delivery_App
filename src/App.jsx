@@ -1,5 +1,5 @@
 import React from "react"
-import {BrowserRouter,Route ,Routes} from 'react-router-dom'
+import {Route ,Routes} from 'react-router-dom'
 import Topbar from "./HomeComponents/Topbar"
 import Header from "./HomeComponents/Header"
 import Midcontainer from "./HomeComponents/Midcontainer"
@@ -11,7 +11,10 @@ import Food from "./HomeComponents/Food"
 import Cardcomp from "./HomeComponents/Cardcomp"
 import Footer from "./HomeComponents/Footer" 
 import Progress from "./HomeComponents/Progress"
-import Topbar1 from "./RestaurantComponents/Topbar"
+import HeroComponent from "./RestaurantComponents/HeroComponent"
+import Foodsnavbar from "./RestaurantComponents/Foodsnavbar"
+import Discountimage from "./RestaurantComponents/Discountimage"
+import Burgers from "./RestaurantComponents/Burgers"
 function Home() {
   return (
     <>
@@ -32,7 +35,12 @@ function Home() {
 function RestaurantPage() {
   return (
     <>
-      <Topbar1 />
+      <Topbar />
+      <Header></Header>
+      <HeroComponent/>
+      <Foodsnavbar/>
+      <Discountimage/>
+      <Burgers/>
       {/* You can add other restaurant-related components here */}
     </>
   );
