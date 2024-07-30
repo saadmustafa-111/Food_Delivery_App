@@ -6,7 +6,7 @@ import review from "../../assets/Review.png";
 export default function Reviews() {
   return (
     <>
-      <div className="py-6  bg-slate-100 flex justify-between  flex-col gap-5">
+      <div className="py-28 relative bg-slate-100 flex justify-between  flex-col gap-5">
         <div className="flex justify-between ">
           <h1 className="flex mx-10 text-[44px] font-bold">Customer Reviews</h1>
           <div className="flex gap-3 mx-10">
@@ -159,13 +159,8 @@ export default function Reviews() {
             </div>
           </div>
         </div>
-        <div className="absolute bottom-[40px] left-[-50px]">
-          <img
-            src={review}
-            alt="Overlapping Image"
-            className="h-auto"
-            style={{ marginBottom: "30%%" }}
-          />
+        <div className="absolute bottom-[-80px]  left-[50%] right-28  flex items-center space-x-4 py-3 px-8">
+          <img src={review} alt="" className="w-28 h-2S8" />
         </div>
       </div>
     </>
