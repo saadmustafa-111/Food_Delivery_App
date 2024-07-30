@@ -6,6 +6,7 @@ import Discountimage from "../pages-component/Restaurants/Discountimage";
 import MenuItem from "../common-component/MenuItem";
 import InformationPage from "../pages-component/Restaurants/InformationPage";
 import Reviews from "../pages-component/Restaurants/Reviews";
+import Map from "../pages-component/Restaurants/Map";
 import cardImage from "../assets/Rectangle 46.png";
 import fries from "../assets/Fries.png";
 import drink1 from "../assets/drink1.png";
@@ -151,8 +152,8 @@ const Rastaurants = () => {
           item={product.products}
         />
       ))}
-
       <InformationPage />
+      <Map />
       <Reviews />
     </>
   );
