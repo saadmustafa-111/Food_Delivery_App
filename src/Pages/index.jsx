@@ -6,7 +6,6 @@ import Orderingapp from "../HomeComponents/Orderingapp";
 import Food from "../HomeComponents/Food";
 import Cardcomp from "../HomeComponents/Cardcomp";
 import Progress from "../HomeComponents/Progress";
-
 import Restaurant from "../HomeComponents/Restaurant";
 
 const Home = () => {
@@ -19,7 +18,7 @@ const Home = () => {
       <Orderingapp />
       <Food />
       <Cardcomp />
-      <Progress />
+      {/* <Progress /> */}
     </>
   );
 };
