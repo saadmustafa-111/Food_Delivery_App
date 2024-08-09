@@ -11,7 +11,7 @@ import text from "../assets/Popular Restaurants.png";
 export default function Restaurant() {
   return (
     <>
-      <div className="py-4  md:mx-5 flex flex-col gap-6 h-auto text-sm ">
+      <div className="py-4 m-2 md:mx-5 flex flex-col gap-6 h-auto text-sm ">
         <h2 className="text-[20px]  md:text-[35px] font-bold ">
           Popular Restaurants{" "}
         </h2>

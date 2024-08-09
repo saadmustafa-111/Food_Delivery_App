@@ -18,7 +18,7 @@ const Home = () => {
       <Orderingapp />
       <Food />
       <Cardcomp />
-      {/* <Progress /> */}
+      <Progress />
     </>
   );
 };

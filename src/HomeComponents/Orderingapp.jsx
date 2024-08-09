@@ -1,6 +1,6 @@
 import React from "react";
 import orderimg from "../assets/Ordering APP.png";
-import frndimg from "../assets/friends.png";
+import frndimg from "../assets/Friends.png";
 import orderlogo from "../assets/LOGO 1.png";
 import {
   FaApple,
