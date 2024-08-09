@@ -16,7 +16,7 @@ export default function Categories() {
   ];
 
   return (
-    <div className="p-2 flex flex-col gap-6  h-auto text-sm md:mx-5 bg-slate-200 md:bg-transparent">
+    <div className="p-2 m-2 flex flex-col gap-6  h-auto text-sm md:mx-5 bg-slate-200 md:bg-transparent">
       <h1 className="text-[20px] md:text-[35px] font-bold">
         Order.Uk’s Popular Categories
       </h1>

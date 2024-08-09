@@ -4,7 +4,7 @@ import food2 from "../assets/Group 8 (2).png";
 
 export default function Food() {
   return (
-    <div className="py-4 h-auto text-sm md:mx-5">
+    <div className="py-4 m-2 h-auto text-sm md:mx-5">
       <div className="flex flex-col md:flex-row gap-3">
         <div className="relative mb-4 md:mb-0 md:mr-0 w-full">
           <img src={food1} alt="Food 1" className="w-full h-auto " />

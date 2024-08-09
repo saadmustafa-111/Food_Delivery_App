@@ -19,7 +19,7 @@ const Layout = ({ children }) => {
       <MobileHeader onclose={toggleSlider} />
       {children}
       {/* <Restaurant className="mt-10" /> */}
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 };
