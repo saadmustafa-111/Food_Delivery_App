@@ -37,23 +37,23 @@ export default function Orderingapp() {
             eligendi.
           </p>
           <div className=" justify-center items-center flex gap-4">
-            <button className="flex gap-2 text-white bg-black justify-self-center items-center px-3 py-2 rounded-md">
-              <div>
-                {" "}
-                <FaApple size={25} />
+            <button className="bg-black text-white px-4 py-1 md:px-6 md:py-2 flex items-center rounded-lg whitespace-nowrap">
+              <div className="flex items-center">
+                <FaApple className="w-6 h-6 md:w-8 md:h-8 inline-block mr-2" />
               </div>
-              <div className="flex flex-col justify-center items-centerms-">
-                <p>Download on the </p>
-                <h5 className="text-lg  font-bold">App Store </h5>
+              <div className="text-center text-xs md:text-base">
+                <p>Download on the</p>
+                <h3 className="text-sm md:text-xl font-bold">App Store</h3>
               </div>
             </button>
-            <button className="flex gap-2 bg-black text-white justify-center items-center px-3 py-2 rounded-md">
-              <div>
-                <BiLogoPlayStore size={25} />{" "}
+
+            <button className="bg-black text-white px-4 py-1 md:px-6 md:py-2 flex items-center rounded-lg whitespace-nowrap">
+              <div className="flex items-center">
+                <BiLogoPlayStore className="w-6 h-6 md:w-12 md:h-12 inline-block mr-2" />
               </div>
-              <div className="flex flex-col justify-center items-center">
+              <div className="text-left text-xs md:text-base">
                 <p>GET IT ON</p>
-                <h5 className="text-lg font-bold">Google Play</h5>
+                <h3 className="text-sm md:text-xl font-bold">Google Play</h3>
               </div>
             </button>
           </div>

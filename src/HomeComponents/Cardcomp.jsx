@@ -67,7 +67,7 @@ function Cardcomp() {
           <div className="flex flex-col gap-5 lg:flex-row">
             <div className="flex-1">
               <div className="mb-6 flex  justify-center md:justify-start">
-                <button className="bg-orange-500 font-bold text-lg rounded-full py-3 px-6">
+                <button className="bg-orange-500 font-bold text-lg rounded-full py-3 px-6 whitespace-nowrap">
                   How Does UK.Order Works?
                 </button>
               </div>
