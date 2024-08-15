@@ -12,6 +12,7 @@ import fries from "../assets/Fries.png";
 import drink1 from "../assets/drink1.png";
 import drink2 from "../assets/drink2.png";
 import drink3 from "../assets/drink3.png";
+import Mobilereview from "../pages-component/Restaurants/Mobilereview";
 
 const Rastaurants = () => {
   const Data = [
@@ -154,7 +155,12 @@ const Rastaurants = () => {
       ))} */}
       <InformationPage />
       <Map />
-      {/* <Reviews /> */}
+      <div className="hidden md:block">
+        <Reviews />
+      </div>
+      <div className="md:hidden block">
+        <Mobilereview />
+      </div>
     </>
   );
 };
