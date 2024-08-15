@@ -25,3 +25,9 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

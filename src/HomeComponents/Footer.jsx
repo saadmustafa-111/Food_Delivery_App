@@ -15,7 +15,7 @@ export default function Footer() {
       <div className="py-4 p-2 md:mt-20 bg-gray-200 max-w-full mx-auto h-auto text-sm">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between">
-            <div className="mt-10 flex flex-col items-start ml-4 md:ml-6">
+            <div className="mt-10 flex flex-col items-start ml-4 md:ml-0">
               <div className="flex flex-row items-center mb-4">
                 <img src={orderlogo} alt="" className="mb-3" />
               </div>
@@ -77,7 +77,7 @@ export default function Footer() {
                 <FaSnapchat className="w-6 h-6 md:w-8 md:h-8 text-black cursor-pointer" />
               </div>
             </div>
-            <div className="mt-5 md:mt-10 flex flex-col items-start ml-4 md:ml-10">
+            <div className="mt-5 md:mt-10 flex flex-col items-start ml-7 md:ml-10">
               <p className="text-lg font-bold">Legal Pages</p>
               <a href="#" className="underline my-2">
                 Terms and Conditions
@@ -92,7 +92,7 @@ export default function Footer() {
                 Modern Slavery Statement
               </a>
             </div>
-            <div className="mt-5 md:mt-10 flex flex-col items-start ml-4 md:ml-10">
+            <div className="mt-5 md:mt-10 flex flex-col items-start ml-7 md:ml-10">
               <p className="text-lg font-bold">Important Links</p>
               <a href="#" className="underline my-2">
                 Get Help
@@ -111,9 +111,9 @@ export default function Footer() {
         </div>
       </div>
       <div className="py-4 bg-slate-950 h-auto text-sm border-t border-gray-700">
-        <div className="container mx-auto flex justify-between items-center">
-          <div className="text-white text-sm">
-            <p>
+        <div className="container mx-auto flex flex-col items-center md:flex-row md:justify-between">
+          <div className="text-white r text-sm mb-4 md:mb-0">
+            <p className="text-center">
               &copy; {new Date().getFullYear()} Your Company Name. All rights
               reserved.
             </p>

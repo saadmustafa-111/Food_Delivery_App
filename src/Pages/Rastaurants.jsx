@@ -145,16 +145,16 @@ const Rastaurants = () => {
       <HeroComponent />
       <Foodsnavbar />
       <Discountimage />
-      {Data.map((product, index) => (
+      {/* {Data.map((product, index) => (
         <MenuItem
           key={index}
           title={product.ItemName}
           item={product.products}
         />
-      ))}
+      ))} */}
       <InformationPage />
       <Map />
-      <Reviews />
+      {/* <Reviews /> */}
     </>
   );
 };

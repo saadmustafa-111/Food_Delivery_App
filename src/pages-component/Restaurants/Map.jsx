@@ -11,7 +11,7 @@ export default function Map() {
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
-        <div className="absolute w-1/5  bg-slate-950 px-3 py-10 my-8 mx-8 rounded-lg  justify-center">
+        <div className="absolute md:w-1/5  bg-slate-950 px-3 py-10 my-8 mx-8 rounded-lg  justify-center">
           <h2 className="text-xl text-white font-semibold my-4 mx-4 mb-2">
             McDonald’s
           </h2>

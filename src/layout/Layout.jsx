@@ -18,7 +18,7 @@ const Layout = ({ children }) => {
       <Sidebar isopen={isSidebaropen} onclose={toggleSlider} />
       <MobileHeader onclose={toggleSlider} />
       {children}
-      {/* <Restaurant className="mt-10" /> */}
+      <Restaurant className="mt-10" />
       <Footer />
     </>
   );

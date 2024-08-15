@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 export default function Ordercomponent() {
   const Data = [
     {
-      image: g2,
+      image: g1,
       Res: "Restaurant",
       cafe: "Chef Burgers London",
     },
@@ -20,7 +20,7 @@ export default function Ordercomponent() {
     },
 
     {
-      image: g2,
+      image: g1,
       Res: "Restaurant",
       cafe: "Chef Burgers London",
     },
@@ -54,7 +54,7 @@ export default function Ordercomponent() {
           ))}
         </nav>
       </div>
-      <div className=" md:grid md:grid-cols-3 flex   md:mx-5 hide-scrollbar gap-3 w-full overflow-hidden overflow-x-auto    ">
+      <div className="md:grid md:grid-cols-3 flex md:mx-5 hide-scrollbar gap-3 w-full overflow-hidden">
         {Data.map((data, index) => (
           <div key={index} className={`flex flex-col gap-2 `}>
             <div
@@ -67,7 +67,7 @@ export default function Ordercomponent() {
                 -40%
               </div>
               <div className=" hidden md:block p-3 text-white   bg-opacity-50 mt-2">
-                <h3 className="text-orange-500">{data.Res}</h3>
+                <h3 className="text-orange-500 md:text-2xl">{data.Res}</h3>
                 <h3 className="font-bold text-lg">{data.cafe}</h3>
               </div>
             </div>
