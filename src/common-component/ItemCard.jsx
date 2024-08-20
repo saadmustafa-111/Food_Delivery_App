@@ -15,9 +15,9 @@ const ItemCard = ({ key, title, des, price, image, cardStyle }) => {
     <>
       <div
         key={key}
-        className={`bg-white shadow-lg p-6 flex  gap-5 justify-between rounded-lg  ${cardstyles}`}
+        className={`hidden bg-white shadow-lg p-6 md:flex  gap-5 justify-between rounded-lg  ${cardstyles}`}
       >
-        <div className={`flex flex-col gap-3`}>
+        <div className={` md:flex flex-col gap-3`}>
           <h2 className="  text-2xl font-bold">{title}</h2>
           <p className="text-xl font-light">{des}</p>
           <h3 className="  font-bold text-[18px]  ">GBP {price}</h3>
