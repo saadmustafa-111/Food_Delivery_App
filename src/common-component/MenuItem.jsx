@@ -20,7 +20,7 @@ const MenuItem = ({ title, item }) => {
   };
   return (
     <>
-      <div className="py-6 mx-10 mb-5">
+      <div className="hidden md:block py-6 mx-10 mb-5">
         <h4 id={title} className={`text-3xl font-bold ${cardstyles(title)}`}>
           {title}
         </h4>
